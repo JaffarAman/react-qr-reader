@@ -18,7 +18,6 @@ const App = () => {
   const [result, setresult] = useState("No result");
   const [data, setData] = useState("No result");
   const handleScan = (data) => {
-    console.log("hahahahah", data);
     if (data) {
       console.log(data, "data");
       setresult(data);
